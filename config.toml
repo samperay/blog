@@ -1,4 +1,4 @@
-baseURL = "https://localhost/"
+baseURL = "https://samperay.github.io/devsre/"
 title = "Develop Site Realiable Engineering Operations"
 
 theme = "fuji"
