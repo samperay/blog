@@ -1,6 +1,5 @@
 baseURL = "https://samperay.github.io/devsre/"
-title = "Develop Site Realiable Engineering Operations"
-
+title = "Sunil Amperayani's Blog"
 theme = "fuji"
 hasCJKLanguage = true
 enableEmoji = true
@@ -11,6 +10,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 ## Change this two to switch between different language
 languageCode = "en"           # For RSS, view https://www.rssboard.org/rss-language-codes
 defaultContentLanguage = "en" # For HTML page, now support: en, zh-hans, zh-hant, ja, nl, pl, it
+
 
 summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
 paginate = 10
@@ -32,11 +32,11 @@ post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
 author = "Sunil Amperayani"                # You can also set author in post front matter individually
-subTitle = "Development Site Realiable Engineer"
+subTitle = "Consequence Of Thoughts"
 defaultTheme = "dark"              # default theme when first visit (auto|dark|light)
 
 # Source URL of the website, will appear in the footer
-sourceURL = "https://github.com/samperay/devsre"
+sourceURL = "https://linkedin.com/in/samperay"
 
 # Use CloudFlare Workers to accelerate the Google Analytics
 # If you are using this please comment the googleAnalytics above
@@ -59,12 +59,14 @@ showLicenseInFooter = false
 # License at the end of each post
 showLicense = false
 showToc = true
+showComments = true
 
 # Copyright
 copyrightStartYear = "2023"
 
 # Open Graph & Twitter Card variables
 # You can also set description and images in post front matter individually
+
 description = "A minimal Hugo theme with nice theme color."
 og = "/img/og.png" # This will use the image called og.png in static/img folder
 
@@ -126,28 +128,26 @@ name = "Archives"
 url = "/archives/"
 weight = 2
 [[menu.nav]]
-name = "About"
+name = "About Me"
 url = "/about/"
 weight = 3
 [[menu.nav]]
 name = "Search"
 url = "/search/"
 weight = 4
-[[menu.nav]]
 
 [[menu.link]]
-name = "GitHub"
-url = "https://github.com/dsrkafuu"
+name = "LinkedIn"
+url = "https://linkedin.com/in/samperay"
 weight = 1
 [[menu.link]]
-name = "Twitter"
-url = "https://twitter.com/dsrkafuu"
+name = "GitHub"
+url = "https://github.com/samperay"
 weight = 2
 [[menu.link]]
-name = "bilibili"
-url = "https://space.bilibili.com/19767474"
+name = "Twitter"
+url = "https://twitter.com/samperay"
 weight = 3
-
 
 
 [build]
