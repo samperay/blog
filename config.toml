@@ -1,4 +1,4 @@
-baseURL = "https://samperay.github.io/devsre/"
+baseURL = "https://samperay.github.io/blog/"
 title = "Sunil Amperayani's Blog"
 theme = "fuji"
 hasCJKLanguage = true
