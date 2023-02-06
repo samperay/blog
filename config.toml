@@ -1,5 +1,5 @@
 baseURL = "https://samperay.github.io/blog/"
-title = "Sunil Amperayani's Blog"
+title = "Sunil's Blog"
 theme = "fuji"
 hasCJKLanguage = true
 enableEmoji = true
