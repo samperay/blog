@@ -19,7 +19,7 @@ We would spin up the docker container using below `docker-compose` file.
 version: '3.8'
 services:
   db:
-    image: postgres:14.1-alpine
+    image: sunlnx/postgresql:v1
     restart: always
     environment:
       - POSTGRES_USER=postgres
@@ -41,13 +41,9 @@ Verify status of your docker container by executing,
 
 ## Database Restoration 
 
-The datafile can be [Downloaded](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip) from the website. you need to convert it to `.tar` extension and restore using `pgadmin4`
-
-You can [Load PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/) by following steps mentioned. 
+You can [Load PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/) by following steps mentioned.
 
 ## Testing
 
-Once all your database is completed, you can test by querying the tables. 
-
-`select * from customer`
+Provide an SQL query to test if you are able to retrive the data.
 
