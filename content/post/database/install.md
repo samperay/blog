@@ -11,7 +11,8 @@ In order to setup an database for development environment, we are using here an 
 
 ## Installation
 
-We would spin up the docker container using below `docker-compose` file. 
+Create a new directory and file called `docker-compose-postgres.yml`. 
+Copy the below content into newly created file. 
 
 ```
 version: '3.8'
@@ -31,11 +32,8 @@ volumes:
     driver: local
 ```
 
-Save the file and bring up the postgres container using 
-`docker-compose -f <filename> -d up` that starts the container in the background. 
-
-Verify status of your docker container by executing, 
-`docker ps` 
+Save the file, bring up the postgres container using 
+`docker-compose -f docker-compose-postgres.yml -d up` that starts the container in the background. Verify container status by `docker ps` 
 
 ## Database Restoration using pgadmin4
 
