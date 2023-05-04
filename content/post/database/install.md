@@ -5,13 +5,11 @@ draft: false
 tags: ["database"]
 ---
 
-# PostgreSQL
-
 ## Development Environment Setup
 
 In order to setup an database for development environment, we are using here an docker container and would add an sample database from [postgresql-sample-database](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
 
-## Download and Install
+## Installation
 
 We would spin up the docker container using below `docker-compose` file. 
 
@@ -39,11 +37,6 @@ Save the file and bring up the postgres container using
 Verify status of your docker container by executing, 
 `docker ps` 
 
-## Database Restoration 
+## Database Restoration using pgadmin4
 
-You can [Load PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/) by following steps mentioned.
-
-## Testing
-
-Provide an SQL query to test if you are able to retrive the data.
-
+You can [Load PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/) as described.
