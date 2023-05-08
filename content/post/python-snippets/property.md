@@ -1,7 +1,7 @@
 ---
 title: "Property Decorator"
 date: 2023-05-07T19:03:31+05:30
-draft: true
+draft: False
 tags: ["python snippets"]
 ---
 
