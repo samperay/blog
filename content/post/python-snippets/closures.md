@@ -1,7 +1,8 @@
 ---
-title: "Closures"
+title: "Python Closures"
 date: 2023-05-08T17:17:58+05:30
-draft: true
+draft: False
+tags: ["python snippets"]
 ---
 
 ## Example 1
