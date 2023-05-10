@@ -2,7 +2,6 @@
 title: "Dependency Inversion Principle"
 date: 2023-05-09T16:37:02+05:30
 draft: False
-tags: ["Python Design Principle"]
 ---
 
 The Dependency Inversion Principle (DIP) is a principle in object-oriented design that states that high-level modules should not depend on low-level modules. Instead, both should depend on abstractions. It promotes decoupling and flexibility in the codebase

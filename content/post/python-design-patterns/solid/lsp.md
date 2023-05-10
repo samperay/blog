@@ -2,7 +2,6 @@
 title: "Liskov Substitution Principle"
 date: 2023-05-07T18:02:32+05:30
 draft: False
-tags: ["Python Design Principle"]
 ---
 
 In this principle, if the program is using the base class, it should be able to work correctly with any derived class of that base class without needing to know the specific subclass. 

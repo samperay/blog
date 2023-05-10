@@ -2,7 +2,6 @@
 title: "Open Closed Principle"
 date: 2023-05-07T10:38:24+05:30
 draft: False
-tags: ["Python Design Principle"]
 ---
 
 The Open-Closed Principle (OCP) states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. In other words, the behavior of a software entity should be easily extended without modifying its source code.

@@ -2,7 +2,6 @@
 title: "Single Responsibility Principle"
 date: 2023-05-05T15:28:57+05:30
 draft: False
-tags: ["Python Design Principle"]
 ---
 
 The Single Responsibility Principle (SRP) states that a class or module should have only one reason to change. In other words, each class or module should have a single responsibility or purpose.

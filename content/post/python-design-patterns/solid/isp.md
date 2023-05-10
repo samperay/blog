@@ -2,7 +2,6 @@
 title: "Interface Segregation Principle"
 date: 2023-05-09T09:56:52+05:30
 draft: False
-tags: ["Python Design Principle"]
 ---
 
 The Interface Segregation Principle (ISP) states that clients should not be forced to depend on interfaces they do not use.
