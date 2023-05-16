@@ -37,3 +37,29 @@ for line in read_file('my_file.txt'):
 ```
 
 ![Differences](../python-snippets/images/diff_decorators_generators.png)
+
+
+## More usecases
+
+### timeit 
+
+```
+def timeit(func):
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+        print("Time taken to execute function:", end - start)
+        return result
+    return wrapper
+
+@timeit
+def factorial(n):
+  print("Without using cache decorator")
+  return n*factorial(n-1) if n else 1 
+
+print(factorial(5))
+```
+
+
+
