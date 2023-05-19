@@ -2,7 +2,7 @@
 title: "Python Closures"
 date: 2023-05-08T17:17:58+05:30
 draft: False
-tags: ["python snippets"]
+tags: ["programming_terms"]
 ---
 
 ## Example 1

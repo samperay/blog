@@ -2,7 +2,7 @@
 title: "Abstract Classes"
 date: 2023-05-09T10:30:25+05:30
 draft: False
-tags: ["python snippets"]
+tags: ["programming_terms"]
 ---
 
 Abstract classes are those classes that can't be instantiated directly, it would only serve as a blue print. They are always designed to be `subclassed` and they would contain `abstractmethod` that must be implemented by their subclass. 

@@ -2,7 +2,7 @@
 title: "First Class Function"
 date: 2023-05-08T10:31:27+05:30
 draft: False
-tags: ["python snippets"]
+tags: ["programming_terms"]
 ---
 
  If a function can be assigned to a variable or passed as object/variable to other function, that function is called as `first class function` 

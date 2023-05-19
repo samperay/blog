@@ -2,7 +2,7 @@
 title: "Decorator and generators"
 date: 2023-05-13T16:42:12+05:30
 draft: False
-tags: ["python snippets"] 
+tags: ["programming_terms"] 
 ---
 
 

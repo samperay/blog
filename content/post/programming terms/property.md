@@ -2,7 +2,7 @@
 title: "Property Decorator"
 date: 2023-05-07T19:03:31+05:30
 draft: False
-tags: ["python snippets"]
+tags: ["programming_terms"]
 ---
 
 The @property decorator in Python is used to define methods that are accessed like attributes, providing a way to implement computed properties or control access to class attributes. It allows you to define a method that can be accessed as if it were an attribute, without the need to explicitly call it as a method.
