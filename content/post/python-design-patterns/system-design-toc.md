@@ -22,3 +22,4 @@ SOLID is a set of five object-oriented design principles that can help you write
 ## Builder Principle
 
 ### [Builder](../builder)
+### [Builder Facet](../builder-facet)
