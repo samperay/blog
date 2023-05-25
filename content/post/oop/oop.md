@@ -81,3 +81,73 @@ print(f"Employee project details: {emp._project}")
 sunil=Employee("Sunil",100000,34)
 sunil.set_age(32)
 ```
+
+## Constructors
+
+Special method used to create and initialize an object of a class. The primary use of a constructor is to declare and initialize data member/instance variables of a class.
+
+### Constructor Types
+
+- **Default Constructor** - It does not perform any task but initializes the objects
+  
+- **Non-parametrized constructor** - A constructor without any arguments is called a non-parameterized constructor. 
+
+- **parametrized constructor** - A constructor with defined parameters or arguments is called a parameterized constructor.
+
+```
+class Employee:
+    # class variable 
+    count=0
+    # Parameterized Constructor with default values
+    def __init__(self,name="Raghu",age=12):
+        self.name = name
+        self.age=age
+        Employee.count+=1
+
+    # Non Parametrized Constructor.
+    # def __init__(self):
+    #    self.name="Raju"
+    #    self.age=18"
+
+    # when there is no __init__ method, its default constructor
+
+    def display(self):
+        print(f"employee {self.name} is around {self.age} years old")
+
+
+emp1=Employee("Ram",18)
+emp1.display() # Output: employee Ram is around 18 years old
+
+# Object created with default values
+emp2=Employee()
+emp2.display() # Output: employee Raghu is around 12 years old
+
+print(f"Total number of employees: {Employee.count})
+```
+
+### Constructor Chaining 
+
+Constructor chaining is the process of calling one constructor from another constructor. Constructor chaining is useful when you want to invoke multiple constructors, one after another, by initializing only one instance. constructor chaining is convenient when we are dealing with inheritance.
+
+```
+class Vehicle:
+    def __init__(self,engine):
+        self.engine = engine 
+
+class Car(Vehicle): 
+    def __init__(self,engine, max_speed):
+        super().__init__(engine)
+        self.max_speed=max_speed
+
+class ElectricCar(Car):
+    def __init__(self,engine,max_speed,km):
+        super().__init__(engine,max_speed)
+        self.km=km
+
+ev = ElectricCar('1500cc', 240, 750)
+print(f"{ev.engine} is having max speed {ev.max_speed} travelling distance of {ev.km}")
+```
+
+
+
+
