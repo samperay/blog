@@ -148,6 +148,94 @@ ev = ElectricCar('1500cc', 240, 750)
 print(f"{ev.engine} is having max speed {ev.max_speed} travelling distance of {ev.km}")
 ```
 
+## Polymorphism
 
+Polymorphism in Python is the ability of an object to take many forms. Polymorphism is mainly used with inheritance. 
+
+### Polymorphism With Inheritance
+
+Using method overriding `polymorphism` allows us to defines methods in the child class that have the same name as the methods in the parent class. This `process of re-implementing the inherited method in the child class` is known as **Method Overriding**.
+
+
+```
+class Vehicle:
+    def __init__(self,name,color):
+        self.name = name
+        self.color = color
+
+    def show(self):
+        print(f"{self.name} is having color of {self.color}")
+
+
+    def max_speed(self):
+        print("Vehicle max speed is 150")
+
+    def change_gear(self):
+        print('Vehicle change 6 gear')
+
+class Car(Vehicle):
+
+    # due to polymorphism, max_speed() and change_gear() 
+    # methods are overridden for the car object.
+
+    def max_speed(self):
+        print("car max speed is 250")
+
+    def change_gear(self):
+        print('car change 7 gear')
+
+
+
+car = Car('Benz', 'Red')
+car.show() # this method isin't overridden.
+car.max_speed()
+
+vehicle = Vehicle('Volvo', 'Yello')
+vehicle.show()
+vehicle.max_speed()
+```
+
+### Polymorphism class methods
+
+```
+class StudentASection:
+    def students(self):
+        print("A section students")
+
+    def class_teacher(self):
+        print("Mohan")
+
+class StudentBSection:
+    def students(self):
+        print("B section students")
+
+    def class_teacher(self):
+        print("Mohana")
+
+a_section_student=StudentASection()
+b_section_student=StudentBSection()
+
+# you can create function and pass as objects
+#def some_function(obj):
+#    obj.call_methods
+
+for students in (a_section_student,b_section_student):
+    students.students()
+    students.class_teacher()
+```
+
+You could also pass as a single object to the above `objects into the function`
+
+
+```
+def get_student_details(obj):
+    obj.students()
+    obj.class_teacher()
+
+get_student_details(a_section_student)
+get_student_details(b_section_student)
+```
+
+### Method Overloading
 
 
