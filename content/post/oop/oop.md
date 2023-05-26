@@ -236,6 +236,4 @@ get_student_details(a_section_student)
 get_student_details(b_section_student)
 ```
 
-### Method Overloading
-
 
