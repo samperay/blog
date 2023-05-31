@@ -1,8 +1,8 @@
 ---
 title: "Elastic search"
 date: 2023-05-31T13:23:17+05:30
-draft: true
-tags: ["elasticsearch"]
+draft: False
+tags: ["elastic_stack"]
 ---
 
 ## Getting started
@@ -83,7 +83,7 @@ Provide the username and password generated from starting the elasticsearch clus
 
 If you want to query, then `hover` to the kibana dashboard -> `App ->dev_settings->console`
 
-### Query elasticsearch using console 
+### search query using console
 
 All the queries in the elasticsearch would be using an REST API under the hood when after successful validation would respond with an JSON object.
 
@@ -93,7 +93,7 @@ GET /_cat/indices?v # list indices
 GET /_cat/nodes?v # list nodes 
 ```
 
-### Query elasticsearch using curl
+### search query using curl
 
 Since, its being an REST API call, you can use any of the client like `curl` or `postman` to query for the response. 
 
