@@ -27,3 +27,7 @@ SOLID is a set of five object-oriented design principles that can help you write
 ## Factory Principle 
 
 ### [Abstract Factory](../factory-method)
+
+## Prototype
+
+### [Prototype](../prototype)
