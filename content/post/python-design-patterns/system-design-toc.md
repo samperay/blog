@@ -31,3 +31,7 @@ SOLID is a set of five object-oriented design principles that can help you write
 ## Prototype
 
 ### [Prototype](../prototype)
+
+## Singleton
+
+### [Singleton](../singleton)
