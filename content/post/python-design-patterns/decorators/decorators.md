@@ -83,3 +83,40 @@ When calling the render() method on the italic_decorator, it invokes the render(
 The resulting output is the decorated text with both bold and italic formatting: "<i><b>Hello, World!</b></i>"
 
 By using the Decorator pattern, you can dynamically add or modify the behavior of objects at runtime by wrapping them with different decorators. This allows for flexible and extensible composition of objects with additional features or behaviors.
+
+## Dynamic decorators 
+
+the flexibility of dynamic decorators, where the behavior of the decorator can be determined at runtime based on the provided options.
+
+```
+def dynamic_decorator(option):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            if option == 'uppercase':
+                result = func(*args, **kwargs)
+                return result.upper()
+            elif option == 'reverse':
+                result = func(*args, **kwargs)
+                return result[::-1]
+            else:
+                return func(*args, **kwargs)
+        return wrapper
+    return decorator
+
+@dynamic_decorator('uppercase')
+def say_hello():
+    return "Hello, World!"
+
+print(say_hello())  # Output: "HELLO, WORLD!"
+
+@dynamic_decorator('reverse')
+def say_hi():
+    return "Hi, there!"
+
+print(say_hi())  # Output: "!ereht ,iH"
+
+def do_nothing():
+    return "Doing nothing."
+
+print(do_nothing())  # Output: "Doing nothing."
+```
