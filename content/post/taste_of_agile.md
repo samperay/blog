@@ -18,21 +18,21 @@ After you complete this article, you would be able to apply Agile values, princi
 
 Being agile is about the development mindset, which means a way of thinking or having certain attitude about something. The act of migrating from being agile to doing agile is about integrating these **values** and **principles** into how the work is done—through the **practices**.
 
-![Agile intro](./images/agile-intro.png)
+![Agile intro](../images/agile-intro.png)
 
 ### Agile ideas
 
-![Agile ideas](./images/agile_idea.png)
+![Agile ideas](../images/agile_idea.png)
 
 ### Agile manifest
 
-![Agile manifesto](./images/agile%20manifesto.png)
+![Agile manifesto](../images/agile%20manifesto.png)
 
 ## Agile values
 
 Agile values consist of trust, empathy, respect, openness, and courage
 
-![agile values](./images/agile%20values.png)
+![agile values](../images/agile%20values.png)
 
 ## Agile Principles
 
@@ -191,5 +191,5 @@ All three patterns follow the same five steps or phases:
 ## Agile and Design Thinking
 What sets the design thinking methodology apart is the focus on user outcomes—not just any outcomes, but **user** outcomes. This means that to design well, you understand the user, develop empathy for that user, and understand what that user is trying to accomplish when using your design. Design thinking is all about the user.
 
-![Agile ideas](./images/agile_idea.png)
+![Agile ideas](../images/agile_idea.png)
 
